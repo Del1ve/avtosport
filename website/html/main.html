@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/app.js" defer></script>
+	<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        new Slider(document.querySelector('.carousel'));
+    });
+</script>
+</head>
+<body>
+	<div class="bg-img" style="background-image: url(img/asphalt_1.jpg);"></div>
+	<img class="avtosport" src="img/avtosport-text2.png">
+	<div class="container">
+		<div class="carousel">
+				<div class="carousel-window">
+						<div class="carousel-slides">
+								<div class="carousel-item">
+										<a href="#first"> <img src="img/drag-racing.png" alt=""></a>
+								</div>
+								<div class="carousel-item"  >
+									<a href="#second"><img  src="img/cilc-peregony.png" alt=""></a>
+								</div>
+								<div class="carousel-item">
+									<a href="#third"><img src="img/Drift.png" alt=""></a>
+								</div>
+								<div class="carousel-item" >
+									<a href="#four"><img src="img/Rally.png" alt=""></a>
+								</div>
+								
+						</div>
+				</div>
+				<a href="#" class="carousel-prev">
+						<span class="carousel-prev-icon">&lt;</span>
+				</a>
+				<a href="#" class="carousel-next">
+						<span class="carousel-next-icon">&gt;</span>
+				</a>
+		</div>
+</div>
+                                       <!-- BLOCK 0 AVTOSPORT -->
+<div class="block0">
+	<div class="zag0">Автоспорт</div><p>Автоспорт - це вид спорту в якому автогонщики 
+ заробляють собі на життя, змагаючись в гонках зі своїми суперниками. Це спорт, який 
+ вимагає максимальної концентрації, сили, фізичної підготовки, техніки і безстрашності.
+ Існує безліч різних видів автоспорту, від ралі і гранд-турів до крос-кантрі та дрег-рейсингу.
+Представляємо вам 4 найпопулярніші види автоспорту</p>
+</div>
+
+
+
+
+
+                                       <!-- BLOCK 1 DRAG -->
+<div class="block1" id="first">
+	<div class="zag" >Драг-рейсинг </div> <p style="padding-right: calc(var(--index) * 1.5);"> Це змагання на розгін по прямій. Ще до Другої світової війни автолюбителі 
+	влаштовували змагання на розгін на суспільних дорогах, в основному, на чверть милі. У 1950 р. в місті Санта-Ана, 
+	Каліфорнія на місцевому аеродромі було проведено перше офіційне змагання з драгрейсингу. 
+	Найбільш поширена дистанція — класичні ¼ милі. Драгрейсинг влаштовують як на звичайних машинах, 
+	так і на болідах, побудованих спеціально для цього. Дорожня машина проходить дистанцію у 
+	чверть милі за 16 секунд, у той час як драгстер класу 
+	Top Fuel покриває її менш ніж за 5 с, розвиваючи прискорення понад 4g.
+	<div id="slider_1" class="info_title">
+		<img onclick="newPosition1()"  id="chest" class="chest" src="img\Chest.png">
+	</div> 
+	<div id="slider_2" class="info_img">
+		<img class="drag" src="img\17-08-27_19-18-58_me1_7683.jpg">
+		<img onclick="newAntiPosition(), antiRotate()"  id="crest" class="crest" src="img\crest.png">
+	</div>
+</p> 
+</div>
+
+                                       <!-- BLOCK 2 NASKAR -->
+
+<div class="block2"  id="second">
+	<div class="zag">Кільцеві перегони</div> <p style="padding-right: calc(var(--index) * 1.5);"> Це змагання, що відбуваються на закритій кільцевій трасі між 
+		двома або більшою кількістю автомобілів, які змагаються одночасно на одній трасі та в 
+		якому швидкість або дистанція, яка пройдена за вказаний час, є визначальним фактором. Кільцеві гонки дуже 
+		популярні у глядачів, адже гонщики і їхні автомобілі видні для глядача на трибуні велику частину часу 
+		гонки, і перед його очима найчастіше знаходиться хтось з гонщиків. Для телеглядачів цей вид гонок кращий, 
+		ніж інші, завдяки щільній боротьбі на трасі, великій кількості обгонів, частих аварій, піт-стопів. Більшість 
+		кільцевих автогонок проводиться на твердому покритті, хоча в північних країнах проводяться 
+		змагання на льодових трасах, а також існують кільцеві перегони на грунтовому покритті.
+	<div id="slider_1.2" class="info_title2">
+		<img onclick="newPosition1_2()"  id="chest2" class="chest2" src="img\Chest.png">
+	</div> 
+	<div id="slider_2.2" class="info_img2">
+		<img class="naskar" src="img\Naskar.jpg">
+		<img onclick="newAntiPosition2(), antiRotate2()"  id="crest2" class="crest" src="img\crest.png">
+	</div>
+</p> 
+</div>
+
+                                       <!-- BLOCK 3 DRIFT -->
+
+<div class="block3" id="third">
+	<div class="zag">Дрифт</div> <p style="padding-right: calc(var(--index) * 1.5);"> Змагання на автомобілях під час руху в керованому заносі. В ньому водій 
+		навмисно втрачає зчеплення коліс автомобіля з дорогою, змушуючи його ковзати або “дрифтувати” під час поворотів. 
+		Це мистецтво контролювання автомобіля під час його заносу, зберігаючи оптимальний кут і напрямок руху. У кожному етапі 
+		дрифтінгу приховані свої тонкощі та секрети, які водії вивчають протягом багатьох років практики.Сьогодні дрифт
+		не просто перегони або шоу, це ціла культура з власною філософією, технікою та героями. Завдяки своєму корінню, 
+		розвитку та людям, які присвятили своє життя цьому виду спорту, дрифтінг займає особливе місце в серцях любителів 
+		автоспорту по всьому світу.
+	<div id="slider_1.3" class="info_title3">
+		<img onclick="newPosition1_3()"  id="chest3" class="chest3" src="img\Chest.png">
+	</div> 
+	<div id="slider_2.3" class="info_img3">
+		<img class="drift" src="img/Drift.jpg">
+		<img onclick="newAntiPosition3(), antiRotate3()"  id="crest3" class="crest" src="img\crest.png">
+	</div>
+</p> 
+</div>
+
+                                       <!-- BLOCK 4 RALLI -->
+
+<div class="block4" id="four">
+	<div class="zag">Раллі</div> <p style="padding-right: calc(var(--index) * 1.5);">  На відміну від кільцевих автогонок, де траси будуються спеціально, 
+	траси для ралі, найчастіше, є дорогами загального користування, що частково перекриваються тільки 
+	на час проведення змагання, або взагалі пересіченою місцевістю. Так як одна ділянка траси на ралі ніколи 
+	не повторюється багато разів, то для орієнтації на дуже високій швидкості пілоти користуються допомогою
+	штурманів, які стежать за дорогою і повідомляють 
+	пілотам про майбутні повороти і перешкоди. Довгий час ралі не приваблювали багатьох глядачів, адже глядач 
+	на трасі бачив машини дуже рідко і майже ніколи не бачив реальної боротьби за місце. Але з розвитком 
+	телебачення ралі отримали значну популярність у телеаудиторії.</p>
+	<div id="slider_1.4" class="info_title4">
+		<img onclick="newPosition1_4()"  id="chest4" class="chest4" src="img\Chest.png">
+	</div> 
+	<div id="slider_2.4" class="info_img4">
+		<img class="ralli" src="img/rally-car.webp">
+		<img onclick="newAntiPosition4(), antiRotate4()"  id="crest4" class="crest" src="img\crest.png">
+	</div>
+</div>
+
+<footer class="footer">	
+	<img class="jdm" src="img/jdm-logo.png">
+	<img class="avtosport2" src="img\avtosport-text.png">
+	<div class="texta">Головна</div>
+	<div class="textb">Контакти</div>
+	
+	<div class="logo_icons">
+		<img class="Twitter" src="img/Twitter.png">
+		<img class="YouTube" src="img/YouTube.png">
+		<img class="Instagram" src="img/Instagram.png">
+		<img class="facebook" src="img/facebook.png">
+	</div>
+
+</footer>
+
+
+	
